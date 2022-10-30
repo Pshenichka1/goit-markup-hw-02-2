@@ -1,0 +1,139 @@
+:root
+/* основной цвет текста */
+color: 212121
+/* вторичный вет текста */
+color: 757575
+/* белый цвет */
+color: FFFFFF
+/* blue */
+color: 2196F3 
+
+ backgraund: F5F4FA
+ backgraund: 2F303A
+ .list {
+    list-style: none;
+ }
+
+
+.page{
+    color: 212121;
+    background-color: F5F5F5;
+    font-family: Roboto, sans-serif; 
+}
+/* logo */
+.first-part{ 
+    color: 2196F3;
+    
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,1923;
+    letter-spacing: 0,03em;
+}
+.second-part {
+    color: 000000;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,1923;
+    letter-spacing: 0,03em;
+
+}
+.logo: :hover {
+
+}
+
+/* site nav */
+.site-nav .link {
+    color: 212121;
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1,1721;
+    letter-spacing: 0,02em;
+}
+.site-nav .link:hover {
+    color: 2196F3;
+}
+.contact-nav {
+    color: 757575;
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 1,1721;
+    letter-spacing: 0,02em;
+}
+
+/* button */
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,875;
+    text-align: center;
+    letter-spacing: 0,06em;
+}
+.button .primary {
+
+}
+.button .secondary {
+
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,1719;
+    letter-spacing: 0,03em;
+    text-align: center;
+}    
+
+
+/* gero */
+.gero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,3636;
+    text-align: center;
+    letter-spacing: 0,06em;
+}
+/* section our-advantages */
+.our-advantages-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,1721;
+    letter-spacing: 0,03em;
+}
+.our-advantages {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,1743;
+    letter-spacing: 0,03em;
+}
+/* section images */
+
+
+/* section team */
+.team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,1719;
+    text-align: center;
+    letter-spacing: 0,03em;
+}
+.specialist {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,1719;
+    text-align: center;
+    letter-spacing: 0,03em;
+}
+                                                /* footer */
+.contacts {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7143;
+    letter-spacing: 0,03em;
+}
+
+
+
+
