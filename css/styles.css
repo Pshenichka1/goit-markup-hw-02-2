@@ -1,28 +1,20 @@
 :root
-/* основной цвет текста */
-color: 212121
-/* вторичный вет текста */
-color: 757575
-/* белый цвет */
-color: FFFFFF
-/* blue */
-color: 2196F3 
 
- backgraund: F5F4FA
- backgraund: 2F303A
+
+ 
  .list {
     list-style: none;
  }
 
 
 .page{
-    color: 212121;
-    background-color: F5F5F5;
+    color: #212121;
+    background-color: #F5F5F5;
     font-family: Roboto, sans-serif; 
 }
 /* logo */
 .first-part{ 
-    color: 2196F3;
+    color: #2196F3;
     
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -31,7 +23,10 @@ color: 2196F3
     letter-spacing: 0,03em;
 }
 .second-part {
-    color: 000000;
+    color: #000000;
+}
+.second-part,
+.second-part-foot {
 
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -40,23 +35,30 @@ color: 2196F3
     letter-spacing: 0,03em;
 
 }
-.logo: :hover {
+.logo:hover {
+
 
 }
 
 /* site nav */
 .site-nav .link {
-    color: 212121;
+    color: #212121;
     font-weight: 500;
     font-size: 14px; 
     line-height: 1,1721;
     letter-spacing: 0,02em;
 }
-.site-nav .link:hover {
-    color: 2196F3;
+.link:hover,
+.link:focus {
+    color: #2196F3;
 }
-.contact-nav {
-    color: 757575;
+
+.contacts:hover,
+.contacts:focus {
+    color: #2196F3;
+}
+.contacts {
+    color: #757575;
     font-weight: 500;
     font-size: 14px; 
     line-height: 1,1721;
@@ -65,6 +67,8 @@ color: 2196F3
 
 /* button */
 .button {
+    color: #FFFFFF;
+    background-color: #2196F3;
     font-weight: 700;
     font-size: 16px;
     line-height: 1,875;
@@ -78,16 +82,9 @@ color: 2196F3
 
 }
 
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1,1719;
-    letter-spacing: 0,03em;
-    text-align: center;
-}    
-
 
 /* gero */
+
 .gero-title {
     font-weight: 900;
     font-size: 44px;
@@ -97,22 +94,33 @@ color: 2196F3
 }
 /* section our-advantages */
 .our-advantages-title {
+    color: #212121;
     font-weight: 700;
     font-size: 14px;
     line-height: 1,1721;
     letter-spacing: 0,03em;
 }
 .our-advantages {
+    color: #757575;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,1743;
     letter-spacing: 0,03em;
+}
+.section-title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,1719;
+    letter-spacing: 0,03em;
+    text-align: center;
 }
 /* section images */
 
 
 /* section team */
 .team {
+    color:#212121;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,1719;
@@ -127,11 +135,19 @@ color: 2196F3
     letter-spacing: 0,03em;
 }
                                                 /* footer */
-.contacts {
+.section-foot {
+    background-color: #2F303A;
+}                                                
+.contacts-foot {
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,7143;
     letter-spacing: 0,03em;
+}
+.second-part-foot {
+    color: #FFFFFF;
+
 }
 
 
