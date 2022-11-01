@@ -16,7 +16,7 @@ body {
     background-color: #F5F5F5;
     
 }
-------------------------------------/* logo */
+/* logo */
 .first-part{ 
     color: #2196F3;
 }
@@ -42,7 +42,8 @@ body {
 
 
 }
-----------------------------------/* site nav     */
+/* site nav     */
+
 .site-nav-link {
     color: #212121;
 }
@@ -72,7 +73,7 @@ body {
 .contacts:focus {
     color: #2196F3;
 }
--------------------------------------/* gero */
+/* gero */
 .section-gero {
     background-color: #2F303A;
 }
@@ -83,7 +84,7 @@ body {
     text-align: center;
     letter-spacing: 0, 06em;
 }
------------------------------------------/* button */
+/* button */
 .button-gero {        
     color: #FFFFFF;
     background-color: #2196F3;
@@ -100,7 +101,8 @@ body {
 .button-gero:active {
     color: #2F303A;
 }
------------------------------/* section our-advantages */
+/* section our-advantages */
+
 .our-advantages-title {
     color: #212121;
     font-weight: 700;
@@ -126,7 +128,7 @@ body {
 /* section images */
 
 
-------------------------------------------/* section team */
+/* section team */
 .team {
     color:#212121;
     font-weight: 500;
@@ -140,7 +142,7 @@ body {
     line-height: 1,1719;   
     letter-spacing: 0,03em;
 }
------------------------------------------/* footer */
+/* footer */
 .section-foot {
     background-color: #2F303A;
 }                                                
@@ -152,9 +154,9 @@ body {
     letter-spacing: 0,03em;
 }
 
--------------------------------------------/* portfolio */
+/* portfolio */
 
------------------------------------/* button potrfolio */
+/* button potrfolio */
 
 .button {
     font-family: inherit;
@@ -168,7 +170,11 @@ body {
     cursor: pointer;
     border: none;
 }
----------------------------------------/* list projects */
+
+.portfolio-title {
+    opacity: 0;
+}
+/* list projects */
 .list-projects {
     color: #212121;
     font-weight: 700;
