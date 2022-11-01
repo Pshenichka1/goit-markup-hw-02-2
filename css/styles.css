@@ -1,4 +1,9 @@
-:root
+
+    
+
+body {
+    font-family: Roboto, sans-serif;    
+}
 
 
  
@@ -7,24 +12,22 @@
  }
 
 
-.page{
-    color: #212121;
+.page{    
     background-color: #F5F5F5;
-    font-family: Roboto, sans-serif; 
+    
 }
-/* logo */
+------------------------------------/* logo */
 .first-part{ 
     color: #2196F3;
-    
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1,1923;
-    letter-spacing: 0,03em;
 }
 .second-part {
     color: #000000;
 }
+.second-part-foot {
+    color: #FFFFFF;
+}
+
+.first-part,
 .second-part,
 .second-part-foot {
 
@@ -39,34 +42,49 @@
 
 
 }
-
-/* site nav */
-.site-nav .link {
+----------------------------------/* site nav     */
+.site-nav-link {
     color: #212121;
+}
+.contacts {
+    color: #757575;
+}          
+.site-nav-link,
+.contacts {
     font-weight: 500;
     font-size: 14px; 
     line-height: 1,1721;
     letter-spacing: 0,02em;
 }
-.link:hover,
-.link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus,
+.site-nav-link.current {
     color: #2196F3;
+}
+.site-nav-link,
+.contacts,
+.list-link,
+.logo {
+    text-decoration: none;
 }
 
 .contacts:hover,
 .contacts:focus {
     color: #2196F3;
 }
-.contacts {
-    color: #757575;
-    font-weight: 500;
-    font-size: 14px; 
-    line-height: 1,1721;
-    letter-spacing: 0,02em;
+-------------------------------------/* gero */
+.section-gero {
+    background-color: #2F303A;
 }
-
-/* button */
-.button {
+.gero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1, 3636;
+    text-align: center;
+    letter-spacing: 0, 06em;
+}
+-----------------------------------------/* button */
+.button-gero {        
     color: #FFFFFF;
     background-color: #2196F3;
     font-weight: 700;
@@ -74,25 +92,15 @@
     line-height: 1,875;
     text-align: center;
     letter-spacing: 0,06em;
+    cursor: pointer;
+    border: none;
 }
-.button .primary {
-
+.button-gero:hover,
+.button-gero:focus,
+.button-gero:active {
+    color: #2F303A;
 }
-.button .secondary {
-
-}
-
-
-/* gero */
-
-.gero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1,3636;
-    text-align: center;
-    letter-spacing: 0,06em;
-}
-/* section our-advantages */
+-----------------------------/* section our-advantages */
 .our-advantages-title {
     color: #212121;
     font-weight: 700;
@@ -118,23 +126,21 @@
 /* section images */
 
 
-/* section team */
+------------------------------------------/* section team */
 .team {
     color:#212121;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,1719;
-    text-align: center;
+    line-height: 1,1719;    
     letter-spacing: 0,03em;
 }
 .specialist {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,1719;
-    text-align: center;
+    line-height: 1,1719;   
     letter-spacing: 0,03em;
 }
-                                                /* footer */
+-----------------------------------------/* footer */
 .section-foot {
     background-color: #2F303A;
 }                                                
@@ -145,8 +151,38 @@
     line-height: 1,7143;
     letter-spacing: 0,03em;
 }
-.second-part-foot {
-    color: #FFFFFF;
+
+-------------------------------------------/* portfolio */
+
+-----------------------------------/* button potrfolio */
+
+.button {
+    font-family: inherit;
+    color: #212121;
+    background-color: #F5F4FA ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,625;
+    letter-spacing: 0,03em;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+---------------------------------------/* list projects */
+.list-projects {
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0,06em;
+
+}
+.list-services {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,875;
+    letter-spacing: 0,03em;
 
 }
 
